@@ -1,7 +1,7 @@
 
   /* Carousel base class */
   .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 
   .carousel-container{
@@ -11,6 +11,9 @@
     right:0;
     padding-bottom:50px;
   }
+
+
+
 
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -34,6 +37,12 @@
     left: 0;
     min-width: 100%;
     height: 32rem;
+    object-fit: cover;
+
+  }
+
+  .carousel-caption > h3{
+    color:rgb(189, 15, 15);
   }
   
   

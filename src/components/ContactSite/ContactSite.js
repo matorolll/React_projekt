@@ -10,7 +10,7 @@ export default class ContactSite extends Component {
             <p class="lead text-muted mb-0">Możesz zadzwonić, napisać krótkiego maila bądź złożyć wizytę w naszym biurze<br/> Czekamy własnie na ciebie !</p>
     </div>
 
-    <div class="container">
+    <div class="container pb-4">
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -41,7 +41,7 @@ export default class ContactSite extends Component {
 
             <div class="col-12 col-sm-4">
                 <div class="card bg-light mb-3">
-                    <div class="card-header bg-dark text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
+                    <div class="card-header bg-dark text-white text-uppercase"><i class="fa fa-home"></i> Adres</div>
                     <div class="card-body">
                         <p>Ulica jakiś komunistów jebanych 3/7</p>
                         <p>25‑002 Kielce</p>

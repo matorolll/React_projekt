@@ -1,0 +1,12 @@
+.thumbnail {
+    position: relative;
+    font-family: 'Brush Script MT';
+
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+}

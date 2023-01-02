@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default class NavbarComp extends Component {
   render() {
-    return (
+    return (//Usunac fluid aby zmniejszyc nava
         <Navbar bg="dark" variant={"dark"} expand="lg">
         <Container fluid>
           <Navbar.Brand href="./">P0lski Bunker</Navbar.Brand>
@@ -18,7 +18,7 @@ export default class NavbarComp extends Component {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/Glowna">Strona Główna</Nav.Link>
+              <Nav.Link href="/">Strona Główna</Nav.Link>
               <Nav.Link href="/Aukcje">Aukcje</Nav.Link>
               <Nav.Link href="Kontakt">Kontakt</Nav.Link>
               <Nav.Link href="Archiwum">Archiwum</Nav.Link>
