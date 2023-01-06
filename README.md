@@ -49,6 +49,10 @@ Może kiedyś do zaimplementowania [Testy](https://facebook.github.io/create-rea
 Przebudowywuje strukture strony do folderu `build`.\
 Więcej info [deploy](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run deploy`
+
+Przebudowywuje strukture strony pod gh-pages i wysyla do brancha gh-pages.
+
 ## Aby przesłać kod źródłowy strony uruchamiany nastepujące komendy, ten zostanie przesłany do master-branch
 
 ```
@@ -62,6 +66,9 @@ Kiedyś tam do rozbudowy
  [tut1](https://github.com/gitname/react-gh-pages/tree/master)
  [tut2](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
  
+```
+npm run deploy
+```
  
 ## TO-DO
 
