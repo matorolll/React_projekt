@@ -9,6 +9,15 @@ Tematyka projektu: Serwis samochodowy
 
 Projekt stworzony za pomocą: [Create React App](https://github.com/facebook/create-react-app).
 
+## Struktura
+
+Projekt Ten posiada dwa branche
+-gh-pages (domyślny) - Jest to branch stworzony do użycia w płatnym hosting git pages.\
+zawiera przebudowaną strukturę projektu (za biedny jestem jak coś)
+-master - folder z kodem źródłowym projektu na którym dochodzi do większość zmian, (na ten moment to główny folder roboczy)
+
+
+
 ## Aby pobrać (najszybsza metoda)
 
 - Tworzymy nowy folder
@@ -44,11 +53,11 @@ Więcej info [deploy](https://facebook.github.io/create-react-app/docs/deploymen
 
 ```
 $ git add .
-$ git commit -m "Configure React app for deployment to GitHub Pages"
+$ git commit -m "Czytelny którki komentarz"
 $ git push origin master
 ```
 
-## Aby przesłać stronę w postaci pg-pages 
+## Aby przesłać stronę w postaci gh-pages 
 Kiedyś tam do rozbudowy
  [tut1](https://github.com/gitname/react-gh-pages/tree/master)
  [tut2](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
