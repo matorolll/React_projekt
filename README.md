@@ -65,11 +65,11 @@ Kiedyś tam do rozbudowy
  
 ## TO-DO
 
-- Podstawowy zarys strony
-- Podstawowy Routing strony
-- Podział strony na podstrony
-- Rozbudowa podstron
-- Dopracowanie stylu strony głównej
+- [x] Podstawowy zarys strony
+- [x] Podstawowy Routing strony
+- [x] Podział strony na podstrony
+- [-] Rozbudowa podstron
+- [ ] Dopracowanie stylu strony głównej
 - Dopracowanie stylu podstrony Aukcji
 - Dopracowanie stylu podstrony Kontakt
 - Dopracowanie stylu podstrony Archiwum
