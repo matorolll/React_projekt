@@ -79,12 +79,12 @@ Kiedyś tam do rozbudowy
 Dodanie Bazy Danych
 
 - [x] Podłączenie bazy danych FIREBASE
-- [ ] System logownaia
-- [ ] System Rejestracji
+- [x] System logownaia
+- [x] System Rejestracji
 - [ ] Stworzenie prywatnego profilu
 - [ ] Stworzenie prywatnego koszyka
 - [ ] Stworzenie prywatnnej historii zakupów
-- [ ] Dodanie statusu użytkownika na stronach
+- [x] Dodanie statusu użytkownika na stronach
 - [ ] Dodanie opcji dodania aukcji
 - [ ] Dodanie opcji usuwania aukcji
 - [ ] Dodanie opcji wyświetlania aukcji (więcej info w podstronie albo popup)
