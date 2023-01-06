@@ -9,6 +9,21 @@ Tematyka projektu: Serwis samochodowy
 
 Projekt stworzony za pomocą: [Create React App](https://github.com/facebook/create-react-app).
 
+## Aby pobrać (najszybsza metoda)
+
+- Tworzymy nowy folder
+- Uruchamiamy w nim Git Bash
+- Wpisujemy:
+```
+git clone -b master https://github.com/matorolll/React_projekt.git
+cd React_projekt
+npm install
+npm start
+```
+Metoda ta pobiera brancha "master" i tworzy kopie naszej aplikacji.\
+Po wprowadzeniu zmian możemy je przesłać tak jak opisano niżej.
+
+
 ## Dostępne Skrypty
 Można użyć:
 
