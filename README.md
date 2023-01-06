@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Projekt FrontEnd
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Użyte technologię:
+- React
+- Bootstrap
+- Firebase
 
-## Available Scripts
+Tematyka projektu: Serwis samochodowy
 
-In the project directory, you can run:
+Projekt stworzony za pomocą: [Create React App](https://github.com/facebook/create-react-app).
+
+## Struktura
+
+Projekt Ten posiada dwa branche
+- gh-pages (domyślny): Jest to branch stworzony do użycia w płatnym hostingu git pages.\
+zawiera przebudowaną strukturę projektu (za biedny jestem jak coś)
+- master: folder z kodem źródłowym projektu na którym dochodzi do większość zmian, (na ten moment to główny folder roboczy)
+
+
+
+## Aby pobrać (najszybsza metoda)
+
+- Tworzymy nowy folder
+- Uruchamiamy w nim Git Bash
+- Wpisujemy:
+```
+git clone -b master https://github.com/matorolll/React_projekt.git
+cd React_projekt
+npm install
+npm start
+```
+Metoda ta pobiera brancha "master" i tworzy kopie naszej aplikacji.\
+Po wprowadzeniu zmian możemy je przesłać tak jak opisano niżej.
+
+
+## Dostępne Skrypty
+Można użyć:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Uruchamia aplikację w trybie deweloperskim.\
+Pod adresem [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Może kiedyś do zaimplementowania [Testy](https://facebook.github.io/create-react-app/docs/running-tests)
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Przebudowywuje strukture strony do folderu `build`.\
+Więcej info [deploy](https://facebook.github.io/create-react-app/docs/deployment)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Przebudowywuje strukture strony pod gh-pages i wysyla do brancha gh-pages.
 
-### `npm run eject`
+## Aby przesłać kod źródłowy strony uruchamiany nastepujące komendy, ten zostanie przesłany do master-branch
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+$ git add .
+$ git commit -m "Czytelny którki komentarz"
+$ git push origin master
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Aby przesłać stronę w postaci gh-pages 
+Kiedyś tam do rozbudowy
+ [tut1](https://github.com/gitname/react-gh-pages/tree/master)
+ [tut2](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
+ 
+```
+npm run deploy
+```
+ 
+## TO-DO
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [x] Podstawowy zarys strony
+- [x] Podstawowy Routing strony
+- [x] Podział strony na podstrony
+- [x] Rozbudowa podstron
+- [ ] Dopracowanie stylu strony głównej
+- [ ] Dopracowanie stylu podstrony Aukcji
+- [ ] Dopracowanie stylu podstrony Kontakt
+- [ ] Dopracowanie stylu podstrony Archiwum
+- [ ] Stworzenie Szybkiego wyszukiwania po kategoriach
+- [x] Stworzenie zarysu Systemu rejestracji i logowania
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Dodanie Bazy Danych
 
-## Learn More
+- [x] Podłączenie bazy danych FIREBASE
+- [x] System logownaia
+- [x] System Rejestracji
+- [ ] Stworzenie prywatnego profilu
+- [ ] Stworzenie prywatnego koszyka
+- [ ] Stworzenie prywatnnej historii zakupów
+- [x] Dodanie statusu użytkownika na stronach
+- [ ] Dodanie opcji dodania aukcji
+- [ ] Dodanie opcji usuwania aukcji
+- [ ] Dodanie opcji wyświetlania aukcji (więcej info w podstronie albo popup)
+- [ ] Dodanie filtrowania aukcji po typie nadwozia
+- [ ] Dodanie filtrowania aukcji po typie paliwa
+- [ ] Dodanie wyszukiwania po słowach
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Zarysy na przyszłośc
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] Dodanie systemu dodawania automatycznie aukcji w zależność od daty
+- [ ] Aktualizacja aukcji (po danym czasie wygasają i przechodzą do podstrony Archiwum)
+- [ ] Dodanie systemu giełdowego (obstawianie i licytację na dany obiekt) 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
