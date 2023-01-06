@@ -75,7 +75,9 @@ Kiedyś tam do rozbudowy
 - Dopracowanie stylu podstrony Archiwum
 - Stworzenie Szybkiego wyszukiwania po kategoriach
 - Stworzenie zarysu Systemu rejestracji i logowania
+
 Dodanie Bazy Danych
+
 - Podłączenie bazy danych FIREBASE
 - System logownaia
 - System Rejestracji
@@ -89,7 +91,9 @@ Dodanie Bazy Danych
 - Dodanie filtrowania aukcji po typie nadwozia
 - Dodanie filtrowania aukcji po typie paliwa
 - Dodanie wyszukiwania po słowach
+
 Zarysy na przyszłośc
+
 - Dodanie systemu dodawania automatycznie aukcji w zależność od daty
 - Aktualizacja aukcji (po danym czasie wygasają i przechodzą do podstrony Archiwum)
 - Dodanie systemu giełdowego (obstawianie i licytację na dany obiekt) 
