@@ -27,9 +27,11 @@ Więcej info [deploy](https://facebook.github.io/create-react-app/docs/deploymen
 
 ## Aby przesłać kod źródłowy strony uruchamiany nastepujące komendy, ten zostanie przesłany do master-branch
 
+```
 $ git add .
 $ git commit -m "Configure React app for deployment to GitHub Pages"
 $ git push origin master
+```
 
 ## Aby przesłać stronę w postaci pg-pages 
 Kiedyś tam do rozbudowy
