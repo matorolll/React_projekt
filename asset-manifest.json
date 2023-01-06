@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/React_projekt/static/css/main.d4db0335.css",
-    "main.js": "/React_projekt/static/js/main.5b359f32.js",
-    "index.html": "/React_projekt/index.html",
-    "main.d4db0335.css.map": "/React_projekt/static/css/main.d4db0335.css.map",
-    "main.5b359f32.js.map": "/React_projekt/static/js/main.5b359f32.js.map"
+    "main.css": "/static/css/main.b9374665.css",
+    "main.js": "/static/js/main.fd20a898.js",
+    "static/media/car3.jpg": "/static/media/car3.de9036eebb2e6fda4f75.jpg",
+    "static/media/car1.webp": "/static/media/car1.5e355b6c74158e8784a9.webp",
+    "static/media/car2.jpg": "/static/media/car2.524fcca1b9b53fcf6c27.jpg",
+    "static/media/car5.jpg": "/static/media/car5.8b8fa497a3a0ed2b011e.jpg",
+    "static/media/car7.jpg": "/static/media/car7.1da16ab99a6046d5c842.jpg",
+    "static/media/car4.jpg": "/static/media/car4.d8f6a609c6f512825767.jpg",
+    "static/media/car6.jpg": "/static/media/car6.c486e908ec369f24b823.jpg",
+    "static/media/carmotto.png": "/static/media/carmotto.7b1d47574186d69d23a8.png",
+    "static/media/car1.jpg": "/static/media/car1.71df63f72756df63cbdf.jpg",
+    "index.html": "/index.html",
+    "main.b9374665.css.map": "/static/css/main.b9374665.css.map",
+    "main.fd20a898.js.map": "/static/js/main.fd20a898.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4db0335.css",
-    "static/js/main.5b359f32.js"
+    "static/css/main.b9374665.css",
+    "static/js/main.fd20a898.js"
   ]
 }
