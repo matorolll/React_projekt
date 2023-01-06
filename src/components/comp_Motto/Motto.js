@@ -1,7 +1,7 @@
 import React, { Component} from 'react'
 import mottocar from "./carmotto.png"
 
-import './MottoComp.css';
+import './Motto.css';
 
 
 export default class MottoComp extends Component {

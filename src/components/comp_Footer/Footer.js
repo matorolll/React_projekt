@@ -9,12 +9,12 @@ export default class Footer extends Component {
           <section class="d-flex justify-content-center p-4 border-bottom">
             <div class="me-4 d-none d-lg-block"><span>Poznaj nas od innej strony:</span></div>
             <div>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-facebook-f"></i></a>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-twitter"></i></a>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-google"></i></a>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-instagram"></i></a>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-linkedin"></i></a>
-              <a href="" class="me-4 link-secondary"><i class="fab fa-github"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-facebook-f"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-twitter"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-google"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-instagram"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-linkedin"></i></a>
+              <a href="#!" class="me-4 link-secondary"><i class="fab fa-github"></i></a>
             </div>
           </section>
      

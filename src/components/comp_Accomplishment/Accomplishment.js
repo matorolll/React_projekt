@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 
-
 import './Accomplishment.css';
-
 
 export default class Accomplishment extends Component {
   render() {
     return (
         <>
-            <div class="gradient-col p-5 text-center shadow-1-strong mb-3 text-white">
+            <div class="gradient-color p-5 text-center mb-3 text-white">
                 <h1 class="mb-3 h2">Nasza historia</h1>
                 <p class="text-justify">
                     Początkowo, kiedy zakładaliśmy nasz zespół, nie mieliśmy zbyt wielu zasobów ani doświadczenia. Mieliśmy jedynie marzenia o tym, by zostać najlepszymi w tym co robimy i wierzyliśmy, że jesteśmy w stanie to osiągnąć. Wtedy to właśnie ludzie, którzy nas otaczali, pomogli nam w rozwijaniu naszej firmy.

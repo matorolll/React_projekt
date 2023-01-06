@@ -13,11 +13,7 @@ export default class NavbarComp extends Component {
           <Navbar.Brand href="./">P0lski Bunker</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
+            <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
               <Nav.Link href="/">Strona Główna</Nav.Link>
               <Nav.Link href="/Aukcje">Aukcje</Nav.Link>
               <Nav.Link href="Kontakt">Kontakt</Nav.Link>
@@ -33,7 +29,7 @@ export default class NavbarComp extends Component {
                 <NavDropdown.Item href="#action8">SUV</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <a href="/Login"><button type="button" class="btn btn-secondary">Zaloguj się</button></a>
+            <a href="/Signin"><button type="button" class="btn btn-secondary">Zaloguj się</button></a>
             <a href="/Signup"><button type="button" class="btn btn-primary" href="Signup">Zarejestruj się</button></a>
 
           </Navbar.Collapse>

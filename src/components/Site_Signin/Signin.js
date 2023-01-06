@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Login extends Component {
+export default class Signin extends Component {
   render() {
     return (
         <section class="vh-100 gradient-custom">

@@ -1,48 +1,35 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Slidder from './components/Slidder/Slidder';
-import ContactSite from './components/ContactSite/ContactSite';
-import Footer from './components/Footer/Footer';
-import Accomplishment from './components/Accomplishment/Accomplishment';
-import Login from './components/Login/Login';
-import Signup from './components/Signup/Signup';
-
-import MottoComp from './components/MottoComp/MottoComp';
-import AuctionShow from './components/AuctionShow/AuctionShow';
-
-
-
-
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-
-import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Navbar from './components/comp_Navbar/Navbar';
+import Slidder from './components/comp_Slidder/Slidder';
+import Motto from './components/comp_Motto/Motto';
+import Accomplishment from './components/comp_Accomplishment/Accomplishment';
+import Footer from './components/comp_Footer/Footer';
+
+import ContactSite from './components/Site_Contact/Contact';
+import SigninSite from './components/Site_Signin/Signin';
+import SignupSite from './components/Site_Signup/Signup';
+import AuctionSite from './components/Site_Auction/Auction';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Navbar/>
 
-          <Routes>
-            
-            <Route path="/" element={<> <Slidder/> <MottoComp/> <Accomplishment /> </>}/>
+        <Navbar/>  
+        <Routes>   
 
-            
-            <Route path="/Kontakt" element={<ContactSite/>}/>
-            <Route path="/Aukcje" element={<AuctionShow/>}/>
+        <Route path="/" element={<> <Slidder/> <Motto/> <Accomplishment/> </>}/> 
+        <Route path="/Kontakt" element={<ContactSite/>}/>
+        <Route path="/Aukcje" element={<AuctionSite/>}/>
+        <Route path="/Signin" element={<SigninSite/>}/>
+        <Route path="/Signup" element={<SignupSite/>}/>
 
+        </Routes>
+        <Footer/>
 
-            <Route path="/Login" element={<Login/>}/>
-            <Route path="/Signup" element={<Signup/>}/>
-
-
-          </Routes>
-      </div>
-      <Footer/>
-    </Router>
-
+  </Router>
   );
 }
-
 export default App;
