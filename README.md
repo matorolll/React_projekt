@@ -12,7 +12,7 @@ Projekt stworzony za pomocą: [Create React App](https://github.com/facebook/cre
 ## Struktura
 
 Projekt Ten posiada dwa branche
-- gh-pages (domyślny): Jest to branch stworzony do użycia w płatnym hosting git pages.\
+- gh-pages (domyślny): Jest to branch stworzony do użycia w płatnym hostingu git pages.\
 zawiera przebudowaną strukturę projektu (za biedny jestem jak coś)
 - master: folder z kodem źródłowym projektu na którym dochodzi do większość zmian, (na ten moment to główny folder roboczy)
 
