@@ -61,3 +61,40 @@ $ git push origin master
 Kiedyś tam do rozbudowy
  [tut1](https://github.com/gitname/react-gh-pages/tree/master)
  [tut2](https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/)
+ 
+ 
+## TO-DO
+
+- Podstawowy zarys strony
+- Podstawowy Routing strony
+- Podział strony na podstrony
+- Rozbudowa podstron
+- Dopracowanie stylu strony głównej
+- Dopracowanie stylu podstrony Aukcji
+- Dopracowanie stylu podstrony Kontakt
+- Dopracowanie stylu podstrony Archiwum
+- Stworzenie Szybkiego wyszukiwania po kategoriach
+- Stworzenie zarysu Systemu rejestracji i logowania
+Dodanie Bazy Danych
+- Podłączenie bazy danych FIREBASE
+- System logownaia
+- System Rejestracji
+- Stworzenie prywatnego profilu
+- Stworzenie prywatnego koszyka
+- Stworzenie prywatnnej historii zakupów
+- Dodanie statusu użytkownika na stronach
+- Dodanie opcji dodania aukcji
+- Dodanie opcji usuwania aukcji
+- Dodanie opcji wyświetlania aukcji (więcej info w podstronie albo popup)
+- Dodanie filtrowania aukcji po typie nadwozia
+- Dodanie filtrowania aukcji po typie paliwa
+- Dodanie wyszukiwania po słowach
+Zarysy na przyszłośc
+- Dodanie systemu dodawania automatycznie aukcji w zależność od daty
+- Aktualizacja aukcji (po danym czasie wygasają i przechodzą do podstrony Archiwum)
+- Dodanie systemu giełdowego (obstawianie i licytację na dany obiekt) 
+
+
+
+
+
