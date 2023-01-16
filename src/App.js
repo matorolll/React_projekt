@@ -13,23 +13,15 @@ import SigninSite from './components/Site_Signin/Signin';
 import SignupSite from './components/Site_Signup/Signup';
 import AuctionSite from './components/Site_Auction/Auction';
 
-/*
+
 import { db                  } from './components/firebase/firebase';
 import { collection, getDocs } from "firebase/firestore"
 import { useState, useEffect } from "react"
-
-Komponenty dla testowania firestore 
-
-import AuthDetails from './components/firebase/AuthDetail'; */
-import Signintest from "./components/firebase/auth_Signin";
-import Signuptest from "./components/firebase/auth_Signup";
-
 
 
 function App() {
 
 
- /* Funkcje do firebase
  
  const [aukcje, setAukcje] = useState([]);
   const aukcjeCollectionRef = collection(db, "aukcje");
@@ -45,16 +37,13 @@ function App() {
     // eslint-disable-next-line 
   }, []); 
   
-  */
+  
 
 
   return (
-  <>  {/*
+  <>  {
               <div>
                 Blok do testowania firebase
-                <div>Aktualny status: <AuthDetails/></div>
-                <a class="nav-link" href="./Signin-test">Logowanie testowe</a>
-                <a class="nav-link" href="./Signup-test">Rejestracja testowa</a>
 
                 {aukcje.map((aukcja) =>{
                   return(
@@ -66,7 +55,7 @@ function App() {
                 })}
                 koniec bloku do testowania firebase
               </div> 
-       */}
+       }
 
     <Router>
 
@@ -78,9 +67,6 @@ function App() {
         <Route path="/Aukcje" element={<AuctionSite/>}/>
         <Route path="/Signin" element={<SigninSite/>}/>
         <Route path="/Signup" element={<SignupSite/>}/>
-
-        <Route path="/Signup-test" element={<Signuptest/>}/>
-        <Route path="/Signin-test" element={<Signintest/>}/>
 
         </Routes>
         <Footer/>

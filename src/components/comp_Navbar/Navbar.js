@@ -5,6 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import AuthDetails from '../firebase/AuthDetail'; 
+
+
 export default class NavbarComp extends Component {
   render() {
     return (//Usunac fluid aby zmniejszyc nava
@@ -29,8 +32,10 @@ export default class NavbarComp extends Component {
                 <NavDropdown.Item href="#action8">SUV</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            <a href="/Signin"><button type="button" class="btn btn-secondary">Zaloguj się</button></a>
+            <AuthDetails/>
+            <a href="/Signin"><button type="button" class="btn btn-secondary mx-2">Zaloguj się</button></a>
             <a href="/Signup"><button type="button" class="btn btn-primary" href="Signup">Zarejestruj się</button></a>
+
 
           </Navbar.Collapse>
         </Container>

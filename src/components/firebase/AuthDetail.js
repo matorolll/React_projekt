@@ -30,9 +30,9 @@ const AuthDetails = () => {
         <div>{
             authUser 
             ? <>
-                <button onClick={userSignOut}><p>Zalogowano jako {authUser.email}</p></button>
+                <button class="btn btn-outline-secondary" onClick={userSignOut}>{authUser.email}</button>
               </>
-            : <p>Wylogowany</p>}</div>
+            : <button class="btn btn-outline-secondary" disabled>Wylogowany</button>}</div>
     )
 }
 
