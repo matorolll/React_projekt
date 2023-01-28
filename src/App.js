@@ -12,51 +12,11 @@ import ContactSite from './components/Site_Contact/Contact';
 import SigninSite from './components/Site_Signin/Signin';
 import SignupSite from './components/Site_Signup/Signup';
 import AuctionSite from './components/Site_Auction/Auction';
-
-
-import { db                  } from './components/firebase/firebase';
-import { collection, getDocs } from "firebase/firestore"
-import { useState, useEffect } from "react"
-
+import ArchiveSite from './components/Site_Archive/Archive';
 
 function App() {
-
-
- 
- const [aukcje, setAukcje] = useState([]);
-  const aukcjeCollectionRef = collection(db, "aukcje");
-
-  useEffect(() => {
-    const getAukcje = async() => {
-      const data = await getDocs(aukcjeCollectionRef)
-      setAukcje(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-      console.log(data);
-    };
-
-    getAukcje();
-    // eslint-disable-next-line 
-  }, []); 
-  
-  
-
-
   return (
-  <>  {
-              <div>
-                Blok do testowania firebase
-
-                {aukcje.map((aukcja) =>{
-                  return(
-                  <div>
-                      <h1>Nazwa: {aukcja.nazwa}</h1>
-                      <h1>Nazwa: {aukcja.cena}</h1>
-                    </div>
-                  );
-                })}
-                koniec bloku do testowania firebase
-              </div> 
-       }
-
+  <>
     <Router>
 
         <Navbar/>  
@@ -65,6 +25,8 @@ function App() {
         <Route path="/" element={<> <Slidder/> <Motto/> <Accomplishment/> </>}/> 
         <Route path="/Kontakt" element={<ContactSite/>}/>
         <Route path="/Aukcje" element={<AuctionSite/>}/>
+        <Route path="/Archiwum" element={<ArchiveSite/>}/>
+
         <Route path="/Signin" element={<SigninSite/>}/>
         <Route path="/Signup" element={<SignupSite/>}/>
 

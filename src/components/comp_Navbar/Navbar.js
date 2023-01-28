@@ -23,13 +23,15 @@ export default class NavbarComp extends Component {
               <Nav.Link href="Archiwum">Archiwum</Nav.Link>
 
               <NavDropdown title="Szybkie Wyszukiwanie" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="Aukcje/Hatchback">Hatchback</NavDropdown.Item>
-                <NavDropdown.Item href="Aukcje/Kombi">Kombi</NavDropdown.Item>
-                <NavDropdown.Item href="#action6">Sedan</NavDropdown.Item>
-                <NavDropdown.Item href="#action6">Van</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">Hatchback</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">Kombi</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">Sedan</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">Van</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action7">Crossover</NavDropdown.Item>
-                <NavDropdown.Item href="#action8">SUV</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">Crossover</NavDropdown.Item>
+                <NavDropdown.Item href="Aukcje">SUV</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="Aukcje">Dorożki</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <AuthDetails/>
