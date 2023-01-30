@@ -96,8 +96,8 @@ Dodanie Bazy Danych
 - [ ] Dodanie opcji usuwania aukcji
 - [ ] Dodanie opcji wyświetlania aukcji (więcej info w podstronie albo popup)
 - [ ] Dodanie filtrowania aukcji po typie nadwozia
-- [ ] Dodanie filtrowania aukcji po typie paliwa
-- [ ] Dodanie wyszukiwania po słowach
+- [x] Dodanie filtrowania aukcji po typie paliwa
+- [x] Dodanie wyszukiwania po słowach
 
 Zarysy na przyszłośc
 
